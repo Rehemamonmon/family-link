@@ -1,0 +1,52 @@
+body {
+  font-family: Arial, sans-serif;
+ /* text-align:;*/
+}
+
+.card {
+  width: 200p;
+  margin: 50px auto;
+  max-width: 400px;
+  padding: 20px;
+  border-radius: 10px;
+  background: linear-gradient(145deg, rgba(66, 138, 197, 0.8), rgba(97, 80, 172, 2.2) );
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.123);
+}
+ .childrenMap{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+ }
+
+#map {
+  height: 400px;
+  width: 80%;
+  padding: 0%;
+  margin: 20px auto;    
+
+}
+.card-title {
+    font-size: 54px;
+    margin-bottom: 20px;
+    text-align: center;
+    
+}
+.search{
+    display: flex;
+    justify-content: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+    max-width: 480px;
+background:linear-gradient(145deg, rgba(106, 167, 216, 0.8), rgba(97, 80, 172, 2.2) );
+    padding: 10px;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+.childrenContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
